@@ -85,6 +85,11 @@ h5{
   .carousel-item {
     transition: transform 1.5s ease-in-out, opacity 1.2s ease-in-out;
   }
+
+
+
+
+
  
  
  
@@ -127,6 +132,17 @@ h5{
   }
 }
 
+
+
+.certificate-box {
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
 
 
 .certificate-wrapper {
@@ -379,8 +395,7 @@ h5{
 
 
   /* Our works */
-
-  <style>
+ 
 .project-card {
   display: block;
   overflow: hidden;
@@ -419,7 +434,7 @@ h5{
 .project-card:hover::after {
   border: 2px solid rgba(255, 255, 255, 0.2);
 }
-</style>
+ 
 
 
 
