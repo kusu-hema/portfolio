@@ -129,6 +129,37 @@ h5{
 
 
 
+.certificate-wrapper {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.certificate-wrapper:hover {
+  transform: scale(1.02);
+}
+
+.certificate-fixed {
+  height: 350px;
+  object-fit: cover;
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  background-color: white;
+}
+.certificate-box {
+  height: 350px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
 /* marquee */
 .marquee-container {
   /* width: 500px;
